@@ -3,8 +3,7 @@ import base64
 import datetime
 LOOKUPSHIFT = 200156682785938776
 
-pas = b'ZWxlbm5hMDY='
-p = base64.b64decode(pas).decode("ascii")
+pas = ~ # password for MySQL
 # Open the connection to the SQL server
 connection = mysql.connector.connect(
   host="localhost",
